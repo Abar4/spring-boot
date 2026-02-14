@@ -13,6 +13,6 @@ public class Controller {
 	@GetMapping("/")
 	public String getName()
 	{
-		return "Welcome, Student "+studentname+"!";
+		return "Hello"+studentname+"!";
 	}
 }
